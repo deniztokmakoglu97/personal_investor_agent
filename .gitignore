@@ -216,3 +216,36 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Personal investor agent: private local data
+.env
+.env.*
+!.env.example
+
+data/profile.json
+data/portfolio.json
+data/private/
+data/raw/
+
+credentials/
+*.pem
+*.key
+*.p12
+
+# Local n8n state and exported credentials
+.n8n/
+n8n_data/
+*.sqlite
+*.sqlite3
+
+# Logs and temporary output
+logs/
+*.log
+tmp/
+
+#backups
+backups/
+
+#md files
+*.md
